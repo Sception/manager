@@ -6,7 +6,6 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import axios from 'axios'
-// import Api from './api/index.js'
 Vue.prototype.baseUrl = 'http://127.0.0.1:8000/api/'
 Vue.config.productionTip = false
 Vue.prototype.$api = axios
