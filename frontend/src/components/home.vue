@@ -25,7 +25,6 @@
       initBook(){
         var url = this.baseUrl + 'show_books';
         this.$api.get(url).then(response => {
-          console.log(response);
           this.bookList = response.data.list;
         })
       }
